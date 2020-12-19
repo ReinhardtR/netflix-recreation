@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.js": "./static/js/main.ed0cb0e0.chunk.js",
-    "main.js.map": "./static/js/main.ed0cb0e0.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.0f8d89b4.js",
-    "runtime-main.js.map": "./static/js/runtime-main.0f8d89b4.js.map",
-    "static/css/2.679831fc.chunk.css": "./static/css/2.679831fc.chunk.css",
-    "static/js/2.e9e84e50.chunk.js": "./static/js/2.e9e84e50.chunk.js",
-    "static/js/2.e9e84e50.chunk.js.map": "./static/js/2.e9e84e50.chunk.js.map",
-    "index.html": "./index.html",
-    "static/css/2.679831fc.chunk.css.map": "./static/css/2.679831fc.chunk.css.map",
-    "static/js/2.e9e84e50.chunk.js.LICENSE.txt": "./static/js/2.e9e84e50.chunk.js.LICENSE.txt",
-    "static/media/logo.5787551b.svg": "./static/media/logo.5787551b.svg"
+    "main.js": "/netflix-recreation/static/js/main.ed0cb0e0.chunk.js",
+    "main.js.map": "/netflix-recreation/static/js/main.ed0cb0e0.chunk.js.map",
+    "runtime-main.js": "/netflix-recreation/static/js/runtime-main.114a7483.js",
+    "runtime-main.js.map": "/netflix-recreation/static/js/runtime-main.114a7483.js.map",
+    "static/css/2.679831fc.chunk.css": "/netflix-recreation/static/css/2.679831fc.chunk.css",
+    "static/js/2.f9cc6b57.chunk.js": "/netflix-recreation/static/js/2.f9cc6b57.chunk.js",
+    "static/js/2.f9cc6b57.chunk.js.map": "/netflix-recreation/static/js/2.f9cc6b57.chunk.js.map",
+    "index.html": "/netflix-recreation/index.html",
+    "static/css/2.679831fc.chunk.css.map": "/netflix-recreation/static/css/2.679831fc.chunk.css.map",
+    "static/js/2.f9cc6b57.chunk.js.LICENSE.txt": "/netflix-recreation/static/js/2.f9cc6b57.chunk.js.LICENSE.txt",
+    "static/media/logo.5787551b.svg": "/netflix-recreation/static/media/logo.5787551b.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0f8d89b4.js",
+    "static/js/runtime-main.114a7483.js",
     "static/css/2.679831fc.chunk.css",
-    "static/js/2.e9e84e50.chunk.js",
+    "static/js/2.f9cc6b57.chunk.js",
     "static/js/main.ed0cb0e0.chunk.js"
   ]
 }
