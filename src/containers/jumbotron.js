@@ -10,7 +10,10 @@ const JumbotronContainer = () => (
           <Jumbotron.Subtitle>{item.subTitle}</Jumbotron.Subtitle>
         </Jumbotron.Pane>
         <Jumbotron.Pane>
-          <Jumbotron.Image src={item.image} alt={item.alt} />
+          <Jumbotron.Image
+            src={process.env.PUBLIC_URL + item.image}
+            alt={item.alt}
+          />
         </Jumbotron.Pane>
       </Jumbotron>
     ))}

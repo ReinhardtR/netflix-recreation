@@ -11,7 +11,9 @@ export const Background = styled.div`
       rgba(0, 0, 0, 0.35)
     ),
     url(${({ src }) =>
-        src ? `../images/misc/${src}.jpg` : "../images/misc/home-bg.jpg"})
+        src
+          ? `${process.env.PUBLIC_URL}/images/misc/${src}.jpg`
+          : `${process.env.PUBLIC_URL}/images/misc/home-bg.jpg`})
       top left / cover no-repeat;
   @media (max-width: 1100px) {
     ${({ dontShowOnSmallViewPort }) =>

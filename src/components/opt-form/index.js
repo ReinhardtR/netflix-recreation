@@ -9,7 +9,11 @@ OptForm.Input = ({ ...restProps }) => <Input {...restProps} />;
 
 OptForm.Button = ({ children, ...restProps }) => (
   <Button {...restProps}>
-    {children} <img src="/images/icons/chevron-right.png" alt="Try Now" />
+    {children}{" "}
+    <img
+      src={`${process.env.PUBLIC_URL}/images/icons/chevron-right.png`}
+      alt="Try Now"
+    />
   </Button>
 );
 

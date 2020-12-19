@@ -23,8 +23,8 @@ Profiles.Picture = function ProfilesPicture({ src, ...restProps }) {
       {...restProps}
       src={
         src
-          ? `netflix-recreation/images/users/${src}.png`
-          : "netflix-recreation/images/misc/loading.gif"
+          ? `${process.env.PUBLIC_URL}/images/users/${src}.png`
+          : `${process.env.PUBLIC_URL}/images/misc/loading.gif`
       }
     />
   );
