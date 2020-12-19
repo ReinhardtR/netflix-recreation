@@ -1,25 +1,21 @@
-import jumboData from "./fixtures/jumbo.json";
-import Jumbotron from "./components/jumbotron";
+import React from "react";
+import { Router } from "@reach/router";
+import * as ROUTES from "./constants/routes";
+import { Home, Browse, SignIn, SignUp } from "./pages";
+import { UserRedirects } from "./helpers/redirects";
+import { useAuthListener } from "./hooks";
 
 const App = () => {
+  const user = useAuthListener();
+
   return (
-    <>
-      <div>
-        <Jumbotron.Container>
-          {jumboData.map((item) => (
-            <Jumbotron key={item.id} direction={item.direction}>
-              <Jumbotron.Pane>
-                <Jumbotron.Title>{item.title}</Jumbotron.Title>
-                <Jumbotron.Subtitle>{item.subTitle}</Jumbotron.Subtitle>
-              </Jumbotron.Pane>
-              <Jumbotron.Pane>
-                <Jumbotron.Image src={item.image} alt={item.alt} />
-              </Jumbotron.Pane>
-            </Jumbotron>
-          ))}
-        </Jumbotron.Container>
-      </div>
-    </>
+    <Router>
+      {UserRedirects(user)}
+      <Home path={ROUTES.HOME} />
+      <Browse path={ROUTES.BROWSE} />
+      <SignIn path={ROUTES.SIGN_IN} />
+      <SignUp path={ROUTES.SIGN_UP} />
+    </Router>
   );
 };
 
