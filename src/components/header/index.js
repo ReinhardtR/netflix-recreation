@@ -40,7 +40,12 @@ Header.Profile = function HeaderProfile({ children, ...restProps }) {
 };
 
 Header.Picture = function HeaderPicture({ src, ...restProps }) {
-  return <Picture src={`/images/users/${src}.png`} {...restProps} />;
+  return (
+    <Picture
+      src={`netflix-recreation/images/users/${src}.png`}
+      {...restProps}
+    />
+  );
 };
 
 Header.Dropdown = function HeaderDropdown({ children, ...restProps }) {
